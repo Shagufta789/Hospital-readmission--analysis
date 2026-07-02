@@ -61,31 +61,6 @@ The hospital should prioritize follow-up monitoring for patients who:
 
 These utilization patterns were more predictive of readmission than diagnosis type alone.
 
-## 📂 Project Structure
-```
-hospital-readmission-analysis/
-│
-├── Hospital_readmission_analysis.ipynb   # Main analysis notebook
-├── data/
-│   └── hospital_readmissions.csv         # (not included — see Data Access)
-└── README.md
-```
-
-## 🚀 How to Run
-1. Clone this repository
-   ```bash
-   git clone https://github.com/your-username/hospital-readmission-analysis.git
-   ```
-2. Install dependencies
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-   ```
-3. Place the dataset CSV in a `data/` folder (see below) and update the file path in the notebook if needed
-4. Launch the notebook
-   ```bash
-   jupyter notebook Hospital_readmission_analysis.ipynb
-   ```
-
 ## 📥 Data Access
 The dataset used is derived from the [UCI Diabetes 130-US Hospitals dataset](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008). Download it from the source above and place it in a `data/` folder before running the notebook.
 
@@ -95,10 +70,3 @@ The dataset used is derived from the [UCI Diabetes 130-US Hospitals dataset](htt
 - Incorporate additional clinical variables if available (e.g., comorbidity indices)
 - Build an interactive dashboard (Power BI/Tableau) summarizing key risk segments for hospital staff
 
-## 👤 Author
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://linkedin.com)
-
-## 📄 License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
