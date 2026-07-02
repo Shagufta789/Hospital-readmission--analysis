@@ -62,7 +62,7 @@ The hospital should prioritize follow-up monitoring for patients who:
 These utilization patterns were more predictive of readmission than diagnosis type alone.
 
 ## 📥 Data Access
-The dataset used is derived from the [UCI Diabetes 130-US Hospitals dataset](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008). Download it from the source above and place it in a `data/` folder before running the notebook.
+The dataset used is derived from the [UCI Diabetes 130-US Hospitals dataset](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008).
 
 ## 🔮 Future Improvements
 - Address class imbalance and low recall with resampling techniques (e.g., SMOTE) or class-weighting
